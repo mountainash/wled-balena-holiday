@@ -1,16 +1,16 @@
 {
-  "name": "simple-server-node",
-  "version": "2.0.0",
-  "description": "A simple Expressjs Web server on balena",
+  "name": "wled-balena-holiday",
+  "version": "3.0.0",
+  "description": "A simple ExpressJS Web server on balena",
   "main": "server.js",
   "private": true,
   "scripts": {
-    "test" : "echo \"Error: no test specified\"",
+    "test": "echo \"Error: no test specified\"",
     "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/balena-io-projects/simple-server-node.git"
+    "url": "git+https://github.com/mountainash/wled-balena-holiday"
   },
   "keywords": [
     "webserver",
@@ -18,13 +18,16 @@
     "expressjs"
   ],
   "author": "Shaun Mulligan <shaun@balena.io>",
+  "contributors": [
+    "@mountainash"
+  ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/balena-io-projects/simple-server-node/issues"
+    "url": "https://github.com/mountainash/wled-balena-holiday/issues"
   },
-  "homepage": "https://github.com/balena-io-projects/simple-server-node#readme",
+  "homepage": "https://github.com/mountainash/wled-balena-holiday#readme",
   "dependencies": {
-    "express": "~4.17.1",
-    "serve-favicon": "~2.5.0"
+    "express": "4.18.2",
+    "serve-favicon": "2.5.0"
   }
 }

@@ -1,22 +1,22 @@
-name: balena-nodejs-hello-world
+name: wled-balena-holiday
 type: sw.application
 joinable: false
 description: >-
-  This is a simple skeleton NodeJS server that works on any of the devices supported by balena. It also serves as a boilerplate project for you to get started on building your fleet. Have fun! 
+  This is a simple skeleton NodeJS server that works on any of the devices supported by balena. It also serves as a boilerplate project for you to get started on building your fleet. Have fun!
 post-provisioning: >-
   ## Usage instructions
 
-  Allow a few minutes for your device to download the app. Once it's completed, 
+  Allow a few minutes for your device to download the app. Once it's completed,
   the welcome page should be accessible on the public device URL.
 assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balena-io-examples/balena-nodejs-hello-world/'
+      url: 'https://github.com/mountainash/wled-balena-holiday'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/balena-io-examples/balena-nodejs-hello-world/master/logo.png'
+      url: 'https://raw.githubusercontent.com/mountainash/wled-balena-holiday/master/logo.png'
 data:
   supportedDeviceTypes:
     - generic-x86-64-ext
